@@ -29,3 +29,20 @@ input {
 form {
 	display: flex;
 }
+
+.sign--button {
+	padding: 10px;
+	background-color: rgb(22, 122, 198);
+	color: #fff;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid  rgb(22, 122, 198);
+}
+
+.hamburguer--menu img {
+	height: 40px ;
+	width: 30px;
+
+
+
+}
