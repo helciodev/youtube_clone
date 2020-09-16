@@ -11,14 +11,18 @@ body {
 .container {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 140px;
 }
 .navigation--menu {
 	display: flex;
-	flex-basis: 100%;
+	width: 100%;
 	justify-content: space-around;
 	background-color: #ffffff;
 	align-items: center;
 	padding: 30px;
+	position: fixed;
+	overflow: hidden;
+	top: 0;	
 }
 
 .hamburger--menu img {
@@ -28,6 +32,8 @@ body {
 .search--menu {
 	flex-basis: 50%;
 }
+
+
 
 input {
 	width: 100%;
@@ -44,15 +50,19 @@ form {
 	background-color: red;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
-
-iframe {
-	margin-top: 50px;
+	align-items: center;	
 }
 
 .side--bar {
 	flex: 1;
 	height: 150vh;
 	background-color: aqua;
+}
+
+.sign--button {
+	border:1px solid rgb(22, 122, 198);
+	background-color: rgb(22, 122, 198);
+	padding: 10px;
+	border-radius: 4px;
+	color: white;
 }
