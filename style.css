@@ -7,6 +7,10 @@
 body {
 	background-color: #f1f1f1;
 }
+
+.container {
+	display: flex;
+}
 .navigation--menu {
 	display: flex;
 	width: 100%;
@@ -28,4 +32,16 @@ input {
 
 form {
 	display: flex;
+}
+
+.video--playing {
+	height: 60px;
+	flex: 2;
+	background-color: red;
+}
+
+.side--bar {
+	flex: 1;
+	height: 150px;
+	background-color: aqua;
 }
