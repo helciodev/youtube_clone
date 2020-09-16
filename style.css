@@ -10,17 +10,21 @@ body {
 
 .container {
 	display: flex;
+	flex-wrap: wrap;
 }
 .navigation--menu {
 	display: flex;
-	width: 100%;
+	flex-basis: 100%;
 	justify-content: space-around;
 	background-color: #ffffff;
 	align-items: center;
 	padding: 30px;
-	margin-top: 40px;
 }
 
+.hamburger--menu img {
+	height: 30px;
+	width: 40;
+}
 .search--menu {
 	flex-basis: 50%;
 }
@@ -35,13 +39,20 @@ form {
 }
 
 .video--playing {
-	height: 60px;
+	height: 60vh;
 	flex: 2;
 	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+iframe {
+	margin-top: 50px;
 }
 
 .side--bar {
 	flex: 1;
-	height: 150px;
+	height: 150vh;
 	background-color: aqua;
 }
