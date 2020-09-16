@@ -92,8 +92,20 @@ iframe {
 	flex-direction: column;
 }
 
-.something {
+.something, .anotherthing{
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+}
+
+.video--views {
+	border-bottom: 1px solid #167AC6;
+	width: 23%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.video--views-number {
+	padding: ;
 }
