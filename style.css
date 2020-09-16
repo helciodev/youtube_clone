@@ -11,7 +11,7 @@ body {
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 140px;
+	margin-top: 100px;
 }
 .navigation--menu {
 	display: flex;
@@ -56,12 +56,12 @@ form {
 .video--playing {
 	height: 60vh;
 	flex: 2;
+	flex-direction: column;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-right: 5px;
-	position: relative;
 }
 
 .side--bar {
@@ -83,5 +83,5 @@ iframe {
 	width: 98%;
 	height: 98%;
 	left: 0;
-	position: absolute;
 }
+
