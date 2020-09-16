@@ -22,22 +22,31 @@ body {
 	padding: 30px;
 	position: fixed;
 	overflow: hidden;
-	top: 0;	
+	top: 0;
 }
 
 .hamburger--menu img {
 	height: 30px;
-	width: 40;
+	width: 40px;
 }
 .search--menu {
 	flex-basis: 50%;
 }
 
-
-
-input {
+.search {
 	width: 100%;
 	padding: 10px;
+	font-size: 18px;
+}
+
+.search--button,
+.search {
+	border: 1px solid#D3D3D3;
+}
+
+.search--button {
+	width: 90px;
+	background-color: #eeeeee;
 }
 
 form {
@@ -47,10 +56,12 @@ form {
 .video--playing {
 	height: 60vh;
 	flex: 2;
-	background-color: red;
+
 	display: flex;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
+	margin-right: 5px;
+	position: relative;
 }
 
 .side--bar {
@@ -60,9 +71,17 @@ form {
 }
 
 .sign--button {
-	border:1px solid rgb(22, 122, 198);
+	border: 1px solid rgb(22, 122, 198);
 	background-color: rgb(22, 122, 198);
 	padding: 10px;
 	border-radius: 4px;
 	color: white;
+	font-weight: bold;
+}
+
+iframe {
+	width: 98%;
+	height: 98%;
+	left: 0;
+	position: absolute;
 }
