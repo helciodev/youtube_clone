@@ -9,7 +9,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-
 .container {
 	display: flex;
 	flex-wrap: wrap;
@@ -22,7 +21,7 @@ body i {
 }
 
 body i:hover {
-	color:black;
+	color: black;
 }
 .navigation--menu {
 	display: flex;
@@ -40,7 +39,7 @@ body i:hover {
 	font-size: 30px;
 }
 
-.navigation--menu i:hover  {
+.navigation--menu i:hover {
 	color: black;
 }
 
@@ -81,6 +80,7 @@ form {
 
 .side--bar {
 	flex: 1;
+	overflow: scroll;
 }
 
 .sign--button {
@@ -94,9 +94,8 @@ form {
 
 .video--playing iframe {
 	width: 98%;
-	height: 40%;
+	height: 66%;
 	margin-top: 1px;
-	
 }
 .video--info {
 	background-color: #ffffff;
@@ -175,11 +174,11 @@ form {
 .side--video img {
 	height: 100px;
 	width: 100px;
+	margin-right: 10px;
 }
 
 .side--video {
 	display: flex;
-	justify-content: space-around;
 }
 
 .side--video:not(:last-child) {
