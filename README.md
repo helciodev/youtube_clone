@@ -18,12 +18,12 @@ Additional description about the project and its features.
 👤 **Author1**
 
 - GitHub: [@helciodev](https://github.com/helciodev)
-- Twitter: [@twitterhandle](https://twitter.com/@helcio_bruno)
+- Twitter: [@thelcio_bruno](https://twitter.com/@helcio_bruno)
 
 👤 **Author2**
 
 - GitHub: [@Arinpe](https://github.com/Arinpe)
-- Twitter: [@twitterhandle](https://twitter.com/_detola_)
+- Twitter: [@_detola_](https://twitter.com/_detola_)
 
 ## 🤝 Contributing
 
