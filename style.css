@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f1f1f1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+
+body i {
+	cursor: pointer;
+	color: gray;
+}
+
+body i:hover {
+	color: black;
+}
+.navigation--menu {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	background-color: #ffffff;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+}
+
+.navigation--menu i {
+	font-size: 30px;
+}
+
+.navigation--menu i:hover {
+	color: black;
+}
+
+.hamburger--menu img {
+	height: 30px;
+	width: 40px;
+}
+.search--menu {
+	flex-basis: 50%;
+}
+
+.search {
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.search--button,
+.search {
+	border: 1px solid#D3D3D3;
+}
+
+.search--button {
+	width: 90px;
+	background-color: #eeeeee;
+}
+
+form {
+	display: flex;
+}
+
+.video--playing {
+	flex: 2;
+	flex-direction: column;
+	display: flex;
+	margin-right: 5px;
+}
+
+.side--bar {
+	flex: 1;
+	overflow: scroll;
+}
+
+.sign--button {
+	border: 1px solid rgb(22, 122, 198);
+	background-color: rgb(22, 122, 198);
+	padding: 10px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+}
+
+.video--playing iframe {
+	width: 98%;
+	height: 66%;
+	margin-top: 1px;
+}
+.video--info {
+	background-color: #ffffff;
+	width: 98%;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.something,
+.anotherthing {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.video--views {
+	border-bottom: 1px solid #167ac6;
+	width: 23%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.video--uploader {
+	display: flex;
+}
+
+.video--uploader-subscribe {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.video--uploader-button {
+	background-color: #ff0000;
+	color: #ffffff;
+	padding: 5px;
+	border: 1px solid #ff0000;
+	border-radius: 3px;
+}
+
+.video--uploader-button,
+.video--uploader-name {
+	cursor: pointer;
+}
+
+.video--views,
+.video--uploader {
+	padding: 15px;
+}
+.video--views {
+	color: rgb(102, 102, 102);
+}
+.video--views-number {
+	font-size: 23px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.anotherthing {
+	margin-top: 10px;
+	padding: 10px;
+	color: rgb(102, 102, 102);
+	font-size: 23px;
+}
+
+.like--and--dislike i {
+	margin-right: 8px;
+}
+
+.like--and--dislike i:last-of-type {
+	margin-left: 10px;
+}
+
+.side--video img {
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+}
+
+.side--video {
+	display: flex;
+}
+
+.side--video:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.side--video-title p {
+	color: gray;
+}
+.side--video-title span {
+	font-weight: bold;
+	font-size: 15px;
+}
