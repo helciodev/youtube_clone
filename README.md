@@ -1,8 +1,6 @@
 # youtube_clone
 
-> this a youtube clone.
-
-![screenshot](./app_screenshot.png)
+> youtube clone.
 
 Additional description about the project and its features.
 
@@ -13,7 +11,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://helciodev.github.io/youtube_clone/)
 
 ## Authors
 
