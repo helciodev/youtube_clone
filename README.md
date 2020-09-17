@@ -18,7 +18,7 @@ Additional description about the project and its features.
 👤 **Author1**
 
 - GitHub: [@helciodev](https://github.com/helciodev)
-- Twitter: [@thelcio_bruno](https://twitter.com/@helcio_bruno)
+- Twitter: [@helcio_bruno](https://twitter.com/@helcio_bruno)
 
 👤 **Author2**
 
