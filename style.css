@@ -26,6 +26,14 @@ body {
 	top: 0;
 }
 
+.navigation--menu i {
+	cursor: pointer;
+}
+
+.navigation--menu i:hover  {
+	color: black;
+}
+
 .hamburger--menu img {
 	height: 30px;
 	width: 40px;
@@ -106,6 +114,3 @@ iframe {
 	justify-content: flex-end;
 }
 
-.video--views-number {
-	padding: ;
-}
