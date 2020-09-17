@@ -2,11 +2,13 @@
 
 > youtube clone.
 
-Additional description about the project and its features.
+The aim of this project was cloning YouTube.
+We achieved it by embedding a video and some pictures.
 
 ## Built With
 
-- HTML and css
+- HTML
+-CSS
 
 
 ## Live Demo
@@ -15,12 +17,12 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Helcio**
 
 - GitHub: [@helciodev](https://github.com/helciodev)
 - Twitter: [@helcio_bruno](https://twitter.com/@helcio_bruno)
 
-👤 **Author2**
+👤 **Adetola**
 
 - GitHub: [@Arinpe](https://github.com/Arinpe)
 - Twitter: [@_detola_](https://twitter.com/_detola_)
