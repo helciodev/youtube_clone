@@ -98,19 +98,71 @@ iframe {
 	width: 98%;
 	display: flex;
 	flex-direction: column;
+	padding: 15px;
 }
 
-.something, .anotherthing{
+.something,
+.anotherthing {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 }
 
 .video--views {
-	border-bottom: 1px solid #167AC6;
+	border-bottom: 1px solid #167ac6;
 	width: 23%;
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
 }
 
+.video--uploader {
+	display: flex;
+}
+
+.video--uploader-subscribe {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.video--uploader-button {
+	background-color: #ff0000;
+	color: #ffffff;
+	padding: 5px;
+	border: 1px solid #ff0000;
+	border-radius: 3px;
+}
+
+.video--uploader-button,
+.video--uploader-name {
+	cursor: pointer;
+}
+
+.video--views,
+.video--uploader {
+	padding: 15px;
+}
+.video--views {
+	color: rgb(102, 102, 102);
+}
+.video--views-number {
+	font-size: 23px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.anotherthing {
+	margin-top: 10px;
+	padding: 10px;
+	color: rgb(102, 102, 102);
+	font-size: 23px;
+}
+
+.like--and--dislike i {
+	margin-right: 8px;
+}
+
+.like--and--dislike i:last-of-type {
+	margin-left: 10px;
+}
