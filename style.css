@@ -81,8 +81,6 @@ form {
 
 .side--bar {
 	flex: 1;
-	height: 150vh;
-	background-color: aqua;
 }
 
 .sign--button {
@@ -172,4 +170,26 @@ form {
 
 .like--and--dislike i:last-of-type {
 	margin-left: 10px;
+}
+
+.side--video img {
+	height: 100px;
+	width: 100px;
+}
+
+.side--video {
+	display: flex;
+	justify-content: space-around;
+}
+
+.side--video:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.side--video-title p {
+	color: gray;
+}
+.side--video-title span {
+	font-weight: bold;
+	font-size: 15px;
 }
