@@ -21,7 +21,7 @@ body i {
 }
 
 body i:hover {
-	color: black;
+	color: rgb(63, 60, 60);
 }
 .navigation--menu {
 	display: flex;
