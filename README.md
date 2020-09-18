@@ -1,28 +1,31 @@
 # youtube_clone
 
-> this a youtube clone.
+> youtube clone.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+The aim of this project was cloning YouTube.
+We achieved it by embedding a video and some pictures.
 
 ## Built With
 
-- HTML and css
+- HTML
+-CSS
 
 ## Live Demo
+
 https://rawcdn.githack.com/helciodev/youtube_clone/abb1e1be76d84618030c66c9f0e2d552dc214b2b/index.html
+
+
 ## Authors
 
-👤 **Author1**
+👤 **Helcio**
 
 - GitHub: [@helciodev](https://github.com/helciodev)
-- Twitter: [@twitterhandle](https://twitter.com/@helcio_bruno)
+- Twitter: [@helcio_bruno](https://twitter.com/@helcio_bruno)
 
-👤 **Author2**
+👤 **Adetola**
 
 - GitHub: [@Arinpe](https://github.com/Arinpe)
-- Twitter: [@twitterhandle](https://twitter.com/_detola_)
+- Twitter: [@_detola_](https://twitter.com/_detola_)
 
 ## 🤝 Contributing
 
