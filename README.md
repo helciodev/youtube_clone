@@ -11,9 +11,7 @@ Additional description about the project and its features.
 - HTML and css
 
 ## Live Demo
-
-https://rawcdn.githack.com/helciodev/youtube_clone/226acb419b4650b96021f6314dff900bdba796b9/index.html
-
+https://rawcdn.githack.com/helciodev/youtube_clone/abb1e1be76d84618030c66c9f0e2d552dc214b2b/index.html
 ## Authors
 
 👤 **Author1**
