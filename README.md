@@ -13,7 +13,7 @@ We achieved it by embedding a video and some pictures.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/helciodev/youtube_clone/6372f0c4f0b49db1cf978c0396e70878038f7185/index.html)
+https://rawcdn.githack.com/helciodev/youtube_clone/226acb419b4650b96021f6314dff900bdba796b9/index.html
 
 ## Authors
 
